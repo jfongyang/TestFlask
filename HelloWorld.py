@@ -18,6 +18,8 @@ def info2():
 @app.route('/info3.html')
 def info3():
     return 'this is info3.html'
-
+@app.route('/info4.html')
+def info3():
+    return 'this is info4.html'
 if __name__ == '__main__':
     app.run()
