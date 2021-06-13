@@ -15,5 +15,9 @@ def info():
 def info2():
     return 'Welcome to my world!'
 
+@app.route('/info3.html')
+def info3():
+    return 'this is info3.html'
+
 if __name__ == '__main__':
     app.run()
