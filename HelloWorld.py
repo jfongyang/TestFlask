@@ -8,11 +8,11 @@ def hello_world():
     return 'Hello World!'
 
 @app.route('/info.html')
-def hello_world():
-    return 'Welcome to my world!'
+def info():
+    return 'info.html!'
 
 @app.route('/info2.html')
-def hello_world():
+def info2():
     return 'Welcome to my world!'
 
 if __name__ == '__main__':
