@@ -10,6 +10,10 @@ def hello_world():
 @app.route('/info.html')
 def hello_world():
     return 'Welcome to my world!'
-    
+
+@app.route('/info2.html')
+def hello_world():
+    return 'Welcome to my world!'
+
 if __name__ == '__main__':
     app.run()
